@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #18447f;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    text-align: center;
+    color: #dbab00;
+    font-size: 75px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.contenedor-salida {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.salida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    border: solid 2px #fff;
+    background: #fff;
+}
+
+.color-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.color-div input {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+}
+
+.boton-reset {
+    background: #dbab00;
+    border: solid #dbab00;
+    border-radius: 2px;
+    color: #18447f;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #dbab00;
+    width: 100%;
+    height: 70px;
+}
