@@ -48,6 +48,8 @@ h2 {
     color: #000;
     border: solid 2px #fff;
     background: #fff;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #18447f;
 }
 
 .color-div {
@@ -68,6 +70,16 @@ h2 {
 }
 
 .boton-reset {
+    background: #dbab00;
+    border: solid #dbab00;
+    border-radius: 2px;
+    color: #18447f;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.boton-copy {
     background: #dbab00;
     border: solid #dbab00;
     border-radius: 2px;
