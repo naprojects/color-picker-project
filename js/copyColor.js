@@ -1,5 +1,5 @@
 let copyColor = () => {
-    colorCopiado.splice(0, 1, colorCopiar)
     navigator.clipboard.writeText(colorCopiado);
-    alert('Color ' + colorCopiado + ' copiado.')
+    alert('Color ' + colorCopiado + ' copiado en el portapapeles.')
+    //console.log('Color ' + colorCopiado + ' copiado en el portapapeles')
 };

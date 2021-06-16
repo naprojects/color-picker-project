@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Picker</title>
+    <script src="https://kit.fontawesome.com/ba9dbc7d58.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="assets/javascript.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -15,14 +16,17 @@
 </head>
 <body>
     <main>
-        <h2>Color Picker</h2>
-        <div class="contenedor-salida">
-            <div class="salida" id="salida">#ffffff</div>
-        </div>
+        <div class="contenedor">
+            <h2>Color Picker</h2>
+            <div class="contenedor-salida">
+                <div class="salida" id="salida">#ffffff</div>
+                <div id="icono-salida" class="icono-salida"><i class="fas fa-copy icono"></i></div>
+            </div>
 
-        <div class="color-div">
-            <input type="color" id="color" value="#ffffff">
-            <input type="button" id="reset" value="Reiniciar" class="boton-reset">
+            <div class="color-div">
+                <input type="color" id="color" value="#ffffff">
+                <input type="button" id="reset" value="Reiniciar" class="boton-reset">
+            </div>
         </div>
     </main>
     <footer class="footer">
