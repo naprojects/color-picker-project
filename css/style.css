@@ -108,6 +108,10 @@ h2 {
     width: 155px;
 }
 
+.select-color {
+    cursor: pointer;
+}
+
 .boton-reset {
     background: #dbab00;
     border: solid #dbab00;
